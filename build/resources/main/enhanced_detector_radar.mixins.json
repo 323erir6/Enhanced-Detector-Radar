@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.radarcompat.enhanceddetector.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PlayerDetectorPrecisionMixin",
+    "RadarPeripheralMixin",
+    "SableEnginePeripheralMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
